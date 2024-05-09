@@ -1,0 +1,36 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-pthread",
+            "-I/usr/include/gstreamer-1.0",
+            "-I/usr/include/glib-2.0",
+            "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+            "-g",
+            "-ggdb",
+            "-o",
+            "./bin/case_basic2",
+            "cases/basic2.c"
+        ],
+        "directory": "/home/waves/Workspace/clang/gst_tutorial",
+        "file": "cases/basic2.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-pthread",
+            "-I/usr/include/gstreamer-1.0",
+            "-I/usr/include/glib-2.0",
+            "-I/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+            "-g",
+            "-ggdb",
+            "-o",
+            "./bin/case_basic1",
+            "cases/basic1.c"
+        ],
+        "directory": "/home/waves/Workspace/clang/gst_tutorial",
+        "file": "cases/basic1.c"
+    }
+]
